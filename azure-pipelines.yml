@@ -54,4 +54,5 @@ steps:
   inputs:
     PathtoPublish: '$(Build.ArtifactStagingDirectory)'
     ArtifactName: 'AzureTestProject'
-    publishLocation: 'Container'
+    publishLocation: 'FilePath'
+    Parallel: true
