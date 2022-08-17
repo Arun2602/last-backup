@@ -9,13 +9,7 @@ trigger:
          - main
 
 pool:
-  vmImage: 'c50207ad-79e9-4159-aee5-7b0c2dec3097'
-
-variables:
-  buildPlatform: 'Any CPU'
-  buildConfiguration: 'Release'
-  solution: '**/Arun2602.last-backup.sln'
-  project: '**/Arun2602.last-backup.csproj'
+  vmImage: 'windows-latest'
 
 steps:
 - task: NuGetToolInstaller@1
